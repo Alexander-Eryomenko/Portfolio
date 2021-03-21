@@ -1,0 +1,21 @@
+.title {
+  font-weight: var(--font-waight600);
+  text-align: center;
+  font-size: 26px;
+  &_white {
+    color: var(--color-white);
+  }
+  &_yellow {
+    color: var(--main-color-yellow);
+  }
+  &_black {
+    color: var(--color-black);
+  }
+  &_upper {
+    text-transform: uppercase;
+  }
+}
+
+.title16 {
+  font-size: 16px;
+}

@@ -1,0 +1,16 @@
+.how-start-procedure {
+  background-color: var(--main-color-black);
+  &__wrapper {
+    grid-template-columns: minmax(320px, 45%) minmax(320px, 52%);
+  }
+&__img {
+  img {
+
+  }
+}
+&__text {
+  text-align: center;
+  background-color: var(--color-grey);
+  color: var(--color-white);
+}
+}

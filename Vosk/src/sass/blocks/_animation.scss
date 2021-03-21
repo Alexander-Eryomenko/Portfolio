@@ -1,0 +1,14 @@
+@keyframes color {
+  0% {
+    color: var(--color-white);
+    font-size: 26px;
+  }
+  50% {
+    color: var(--main-color-black);
+    font-size: 35px;
+  }
+  100% {
+    color: var(--color-black);
+    font-size: 26px;
+  }
+}

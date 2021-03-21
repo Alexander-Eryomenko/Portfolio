@@ -1,0 +1,51 @@
+.footer {
+  background-color: var(--main-color-black);
+  padding: 40px 0;
+  
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(99px, auto);
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-items: start;
+    text-align: center;
+    color: var(--main-color-yellow);
+  }
+  &__contacts {
+
+    &__link {
+      display: block;
+      color: var(--main-color-yellow);
+      transition: var(--transition);
+      font-size: 16px;
+      &:hover {
+        color: var(--color-white);
+      }
+    }
+  }
+  &__address {
+
+    &-text {
+      font-size: 16px;
+    }
+    &-icons {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(25px,30px));
+      column-gap: 15px;
+      justify-content: center;
+      svg {
+        width: 27px;
+        transition: var(--transition);
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+  }
+  &__work-time {
+    font-size: 16px;
+  }
+}

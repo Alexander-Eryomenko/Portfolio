@@ -1,0 +1,18 @@
+.about-procedure {
+    background-color: var(--color-grey);
+    &__wrapper {
+      
+      grid-template-columns: minmax(320px, 45%) minmax(320px, 52%);
+      
+    }
+  &__img {
+    img {
+      
+    }
+  }
+  &__text {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+}

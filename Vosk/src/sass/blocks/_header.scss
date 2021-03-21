@@ -1,0 +1,30 @@
+.header {
+  min-height: 40px;
+  background-color: var(--main-color-yellow);
+  padding: 10px;
+
+  &__nav {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list-item {
+
+  }
+
+  &__link {
+    font-weight: var(--font-waight600);
+    color: var(--color-black);
+    transition: var(--transition);
+    font-size: 16px;
+    
+    &:hover {
+      color: var(--color-white);
+    }
+  }
+}

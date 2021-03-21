@@ -1,0 +1,69 @@
+:root {
+  --main-color-black: #252526;
+  --main-color-yellow: #fcda00;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #939393;
+  --transition: 0.3s linear all;
+  --font-waight600: 600;
+  --fz16px: 16px;
+  --fz20px: 20px;
+}
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/gothic-fonts';
+@import 'libs/icon-phone';
+@import 'libs/slick';
+@import 'libs/slick-theme';
+@import 'libs/animate';
+* {
+    font-family: 'Gothic', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.header-top-fz16 {
+  font-size: 16px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+.ml15 {
+  margin-left: 15px;
+}
+address {
+  margin: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@import 'blocks/animation';
+@import 'blocks/header-top';
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/promo';
+@import 'blocks/img-text';
+@import 'blocks/about';
+@import 'blocks/about-procedure';
+@import 'blocks/price';
+@import 'blocks/btn';
+@import 'blocks/how-start-procedure';
+@import 'blocks/why-we';
+@import 'blocks/masters';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/mobile-menu';
+@import 'blocks/media';
+@import 'blocks/title';
+
+
